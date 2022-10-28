@@ -2,3 +2,7 @@ a- Para actualizar mi repositorio al estado que esté al repositorio al que hice 
 tengo que utilizar los comandos fetch y merge.
 
 b- No, no puede.
+
+c- no, no se puede
+
+d- No se pierdes, si se usa el comando git rebase upstream/main
