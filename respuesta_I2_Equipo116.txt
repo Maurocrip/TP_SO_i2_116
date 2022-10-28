@@ -1,0 +1,38 @@
+a- Para actualizar mi repositorio al estado que esté al repositorio al que hice fork,
+tengo que utilizar los comandos fetch y merge.
+
+b- No, no puede.
+
+c- no, no se puede
+
+d- No se pierdes, si se usa el comando git rebase upstream/main
+
+
+e- Integrantes:
+SULLIVAN, Nathan (alpha)
+RACIOPPI, Mauro  (beta)
+HERNANDEZ, Tomas (gamma)
+
+1. GAMMA y ALPHA hacen fork del repositorio creado por BETA, (desde GitHub).
+
+2. Modifican cada uno los archivos de manera local (git add, git commit, git push).
+
+3. BETA crea un nuevo archivo "NuevoDato.txt" en el repo original.
+
+4. ALPHA y GAMMA actualizan su repositorio con los siguientes comandos:
+
+- git remote add upstream "link del repo original" (para especificiar cual es el repositirio original)
+- git checkout master (para verificar que estemoes en la misma rama que el repo original)
+- git rebase upstream/master (para actualizar con las modificaciones que se hayan hecho en el repo original)
+
+5. BETA crea el archivo “respuesta_I2_EquipoX116.txt".
+
+6. GAMMA hace un nuevo "git rebase upstream/master", Modifica el archivo con sus respuestas de manera local 
+Y hace un pull request a BETA, para poder modificar el repositorio original (desde GitHub)
+
+7. BETA modifica con las respuestas y pushea.
+
+8. Y por último, ALPHA hace "git rebase upstream/master" y modifica con la ultima respuesta.
+Hace el pull request a BETA y listo.
+
+
